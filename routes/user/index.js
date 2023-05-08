@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const user = require("../../models/user");
-const pharmacy = require("../../models/pharmacy");
+const user = require("../../models/User");
+const pharmacy = require("../../models/Pharmacy");
 
 router.post("/register", require("./register"));
 router.post("/login", require("./login"));

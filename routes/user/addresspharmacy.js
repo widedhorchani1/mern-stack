@@ -1,4 +1,4 @@
-const pharmacy = require("../../models/pharmacy");
+const pharmacy = require("../../models//Pharmacy");
 
 module.exports = async (req, res) => {
   try {
